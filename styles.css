@@ -3,11 +3,11 @@
 ::after {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
 body {
@@ -169,12 +169,6 @@ hr {
   .hero-title {
     font-size: 6rem;
   }
-
-  @media only screen and (max-width: 420px) {
-    .hero-title {
-      font-size: 4.5rem;
-    }
-}
   
   .hero-subtitle,
   .author,
@@ -190,4 +184,10 @@ hr {
   .text {
     font-size: 1.6rem;
   } 
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-title {
+      font-size: 4.5rem;
+    }
 }
